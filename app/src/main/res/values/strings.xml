@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvConfigJugador">Jugador:</string>
+    <string name="tvConfigNIntentos">Nº Intentos:</string>
+    <string name="btConfig">¡A Jugar!</string>
+    <string name="tvPlayNumero">Número</string>
+    <string name="btPlayCheck">Comprobar</string>
+    <string name="btPlayDelete">Borrar</string>
+</resources>
