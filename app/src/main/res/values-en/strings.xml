@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="tvConfigJugador">Player:</string>
+    <string name="tvConfigNIntentos">Nº Attempts</string>
+    <string name="btConfig">Play!</string>
+    <string name="tvPlayNumero">Number</string>
+    <string name="btPlayCheck">Check</string>
+    <string name="btPlayDelete">Delete</string>
+    <string name="settings">Ajustes</string>
+</resources>

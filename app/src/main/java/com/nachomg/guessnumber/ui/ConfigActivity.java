@@ -12,6 +12,11 @@ import com.nachomg.guessnumber.databinding.ActivityConfigBinding;;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.Random;
+
+/*
+Activity de inicio que recogerá el nombre del usuario que participa y el número de intentos, dirigiendole despues a PlayActivity.
+ */
 public class ConfigActivity extends AppCompatActivity {
     private ActivityConfigBinding binding;
 
@@ -29,6 +34,7 @@ public class ConfigActivity extends AppCompatActivity {
             sendPlayNumber();
         });
     }
+
 
     /**
      * Método que implementa la acción del boton btConfig, enviará informacion a la Activity PlayActivity.
@@ -67,6 +73,7 @@ public class ConfigActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 
     //endregion
 }

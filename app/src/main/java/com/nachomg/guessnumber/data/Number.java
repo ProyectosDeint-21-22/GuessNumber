@@ -8,6 +8,7 @@ public class Number extends Application implements Serializable {
     String jugador;
     Integer nIntentos;
     Integer numero;
+    String mensaje;
 
     public Number() {
     }
@@ -17,10 +18,19 @@ public class Number extends Application implements Serializable {
         this.nIntentos = nIntentos;
     }
 
-    public Number(String jugador, Integer nIntentos, Integer numero) {
+    public Number(String jugador, Integer nIntentos, Integer numero, String mensaje) {
         this.jugador = jugador;
         this.nIntentos = nIntentos;
         this.numero = numero;
+        this.mensaje= mensaje;
+    }
+
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
     }
 
     public String getJugador() {
